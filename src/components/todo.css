@@ -1,0 +1,59 @@
+.child-div figure img {
+  height: 100px;
+  width: 100px;
+}
+.addItem {
+  background-color: white;
+  border-radius: 5px;
+  height: 35px;
+  width: 300px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding-left: 10px;
+  padding-right: 10px;
+}
+
+.addItem input {
+  background-color: transparent;
+  outline: none;
+  border: none;
+}
+.child-div input::placeholder {
+  color: lightgrey;
+}
+
+.add-btn {
+  cursor: pointer;
+}
+.add-btn :hover {
+  color: orange;
+}
+.eachItem {
+  background-color: white;
+  border-radius: 5px;
+  height: 40px;
+  width: 300px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding-left: 10px;
+  padding-right: 10px;
+  margin-top: 10px;
+}
+
+.eachItem h4 {
+  color: darkgoldenrod;
+}
+.del-btn {
+  cursor: pointer;
+}
+.del-btn :hover {
+  color: red;
+}
+.edit-btn {
+  cursor: pointer;
+}
+.edit-btn :hover {
+  color: green !important;
+}
